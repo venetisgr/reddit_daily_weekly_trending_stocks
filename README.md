@@ -1,61 +1,33 @@
 # Daily and Weekly top trending Stocks based on Reddit comments
 
-# Project Title
-
-Simple overview of use/purpose.
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The goal of this program is to provide the ability to the users to find the top trending daily and weekly stocks in reddit. In order to achieve this various subreddits are "examined". There are various "filtering" methods implemented in the code in order for the user to keep the "result" he wants and can also add his own. Also the user can chooce to keep the top N(user input) daily and weekly stocks. These top stocks are saved in a useful dataframe format in order for the user to leverage them in other applications. Lastly all the comments and dates associated with the daily and weekly trending stocks can be saved in a csv in order to be further used by other programs.
 
 ## Getting Started
 
 ### Dependencies
+The following libraries are needed:
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* praw
+* time
+* pandas 
+* matplotlib
+* squarify
+* nltk
+* emoji
+* en_core_web_sm
+* datetime 
+* json
+* numpy 
+* time
 
 ## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Though not so much an issue, but based on how "strict" filtering is there might be not enough comments in order to find the actual weekly and daily trending stocks
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
 * [Inspired by his work and the data.py was his creation](https://github.com/asad70/reddit-sentiment-analysis)
 
