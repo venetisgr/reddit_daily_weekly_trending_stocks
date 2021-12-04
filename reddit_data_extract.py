@@ -20,11 +20,11 @@ nltk.downloader.download('vader_lexicon')
 nltk.downloader.download('wordnet')
 import time
 
-reddit = praw.Reddit(user_agent="sentiment analysis",
-                         client_id="#####",
-                         client_secret="####",
-                         username="####",
-                         password="####")
+reddit = praw.Reddit(user_agent="dva_project",
+                         client_id="RgcFSOeVO0D-wlwsCCU5tg",
+                         client_secret="TuoLrWmihYoAYSPaShN2K4HpcRewtA",
+                         username="dva_test",
+                         password="team_NOT_cool_2021")
 
 #####get daily and weekly trends
 def data_extractor_daily_and_week(reddit,no_posts):
@@ -216,7 +216,7 @@ def df_top_trenders(daily_ticks,weekly_ticks,save):
         df.to_csv("daily_weekly_trending_stocks.csv", index=False)        
     return df
         
-def execute():    
+def execute1():    
     
     tick_comments, tick_dates, tickers, tickers_d, tick_comments_d, tick_dates_d  = data_extractor_daily_and_week(reddit,500)
 
