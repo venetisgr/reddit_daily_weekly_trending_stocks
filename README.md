@@ -6,7 +6,7 @@
 The goal of this program is to provide the ability to the users to find the top trending daily and weekly stocks in reddit. In order to achieve this various subreddits are "examined". There are various "filtering" methods implemented in the code in order for the user to keep the "result" he wants and can also add his own. Also the user can chooce to keep the top N(user input) daily and weekly stocks. These top stocks are saved in a useful dataframe format in order for the user to leverage them in other applications. Lastly all the comments and dates associated with the daily and weekly trending stocks can be saved in a csv in order to be further used by other programs.
 
 ## Getting Started
-###API Key
+### API Key
 It is necessary in order to use this program to request API keys from reddit in order to use their API
 
 ### Dependencies
